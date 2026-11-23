@@ -1,0 +1,57 @@
+{
+ "ads": [],
+ "flags": [
+  "youku",
+  "qq",
+  "iqiyi",
+  "qiyi",
+  "letv",
+  "sohu",
+  "tudou",
+  "pptv",
+  "mgtv"
+ ],
+ "parses": [
+  {
+   "name": "默认",
+   "type": 0,
+   "url": ""
+  }
+ ],
+ "sites": [
+  {
+   "api": "https://www.ffzy5.tv/api.php/provide/vod/",
+   "filterable": 1,
+   "key": "ffzy",
+   "name": "非凡资源",
+   "quickSearch": 1,
+   "searchable": 1,
+   "type": 1
+  },
+  {
+   "api": "https://bfzyapi.com/api.php/provide/vod/",
+   "filterable": 1,
+   "key": "bfzy",
+   "name": "暴风资源",
+   "quickSearch": 1,
+   "searchable": 1,
+   "type": 1
+  }
+ ],
+ "spider": "",
+ "wallpaper": "",
+ "lives": [
+  {
+   "name": "直播",
+   "type": 0,
+   "url": "https://raw.githubusercontent.com/VBskycn/iptv/master/tv/iptv4.m3u",
+   "playerType": 1
+  },
+  {
+   "name": "直播备用",
+   "type": 0,
+   "url": "https://live.zhoujie218.top/tv/iptv4.m3u",
+   "playerType": 1
+  }
+ ]
+}
