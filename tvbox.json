@@ -42,8 +42,8 @@
    "name": "索尼资源",
    "type": 1,
    "api": "https://suoniapi.com/api.php/provide/vod/",
-   "searchable": 1,
-   "quickSearch": 1,
+   "searchable": 0,
+   "quickSearch": 0,
    "filterable": 1
   },
   {
@@ -60,6 +60,24 @@
    "name": "红牛资源",
    "type": 1,
    "api": "https://www.hongniuzy2.com/api.php/provide/vod/",
+   "searchable": 1,
+   "quickSearch": 1,
+   "filterable": 1
+  },
+  {
+   "key": "lzzy",
+   "name": "量子资源",
+   "type": 1,
+   "api": "https://cj.lziapi.com/api.php/provide/vod/",
+   "searchable": 1,
+   "quickSearch": 1,
+   "filterable": 1
+  },
+  {
+   "key": "gszy",
+   "name": "光速资源",
+   "type": 1,
+   "api": "https://api.guangsuapi.com/api.php/provide/vod/",
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 1
